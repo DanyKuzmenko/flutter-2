@@ -115201,6 +115201,9 @@ s=3
 return A.v(B.cV.Il(0,"accessToken"),$async$$2)
 case 3:o=d
 if(J.d2(o).length!==0)a.b.n(0,"Authorization","Bearer "+A.h(o))
+a.b.n(0,"Access-Control-Allow-Origin","*")
+a.b.n(0,"Access-Control-Allow-Methods","POST, GET, OPTIONS, DELETE, PATCH")
+a.b.n(0,"Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept")
 a.x=!0
 a.sPr(B.Tq)
 a.e=B.tJ
